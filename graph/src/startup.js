@@ -7,7 +7,9 @@ Office.initialize = function () {
             console.log(asyncResult);
 
             asyncResult.value.getDataAsync(function(data) {
-                console.log(data);
+                console.log(data.value);
+
+                drawObject.draw(data.value);
 
             });
         }
