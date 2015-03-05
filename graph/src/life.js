@@ -14,14 +14,14 @@ var line = d3.svg.line().x(function (d, i) {
     return y(d.y);
 });
 var countries_regions = {};
-d3.text('country-regions.csv', 'text/csv', function (text) {
+d3.text('/content/country-regions.csv', 'text/csv', function (text) {
     var regions = d3.csv.parseRows(text);
     for (i = 1; i < regions.length; i++) {
         countries_regions[regions[i][0]] = regions[i][1];
     }
 });
 var startEnd = {}, countryCodes = {};
-d3.text('life-expectancy-cleaned-all.csv', 'text/csv', function (text) {
+d3.text('/content/life-expectancy-cleaned-all.csv', 'text/csv', function (text) {
     var countries = d3.csv.parseRows(text);
     for (i = 1; i < countries.length; i++) {
         var values = countries[i].slice(2, countries[i.length - 1]);

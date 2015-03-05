@@ -16,16 +16,24 @@
   <script src="/vendor/angular-material/angular-material.min.js" type="application/javascript"></script>
 
   <!-- load Office.js & call Office.initialize() ASAP... must be within 5s of page request -->
-  <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/Office.js" type="application/javascript"></script>
+  <!--<script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/Office.js" type="application/javascript"></script>-->
 
   <!-- styles -->
   <link href="/vendor/angular-material/angular-material.css" rel="stylesheet" />
   <link href="/content/app.css" rel="stylesheet" type="text/css"/>
   <link href="/content/shuffle-animation.css" rel="stylesheet" type="text/css"/>
+
+
+    <script src="/vendor/d3/d3.js"></script>
+    <script src="/life.js"></script>
+
 </head>
 <body layout="column">
 
   <h1>ng-Office Graphs</h1>
+
+    <div id="vis">
+    </div>
 
 </body>
 </html>
