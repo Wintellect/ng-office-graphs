@@ -1,0 +1,5 @@
+C:\Dev\ngOffice\vs\WebApplication1\bin\WebApplication1.dll.config
+C:\Dev\ngOffice\vs\WebApplication1\bin\WebApplication1.dll
+C:\Dev\ngOffice\vs\WebApplication1\bin\WebApplication1.pdb
+C:\Dev\ngOffice\vs\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Dev\ngOffice\vs\WebApplication1\obj\Debug\WebApplication1.pdb
